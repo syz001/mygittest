@@ -13,7 +13,7 @@ import cn.org.GetStationNameDataSetResponse.GetStationNameDataSetResult;
 public class App {
 
 	public static void main(String[] args) {
-
+		System.out.println(11);
 		TrainTimeWebService tt = new TrainTimeWebService();
 		TrainTimeWebServiceSoap soap = tt.getTrainTimeWebServiceSoap();
 //		ArrayOfString stationName = soap.getStationName();
